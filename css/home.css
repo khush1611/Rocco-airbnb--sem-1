@@ -1,0 +1,49 @@
+.page-wrapper{
+    max-width: 75em;
+    margin: 0 auto;
+}
+
+/*----------------------------------------------*/
+/* PLACES */
+/*----------------------------------------------*/
+.places{ margin: var(--margin-top) ;}
+.places__video {
+    max-width: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
+}
+.explore{
+    text-align: center;
+}
+.explore-button{
+    padding: 1em 2em 1em 2em !important;
+}
+
+/*----------------------------------------------*/
+/* Weekend */
+/*----------------------------------------------*/
+.weekend{ margin: var(--margin-top) ;}
+.weekend__box{
+    background-color: var(--col-white);
+    -webkit-box-shadow: 10px 10px 5px -9px rgba(191,191,191,1);
+    -moz-box-shadow: 10px 10px 5px -9px rgba(191,191,191,1);
+    box-shadow: 10px 10px 5px -9px rgba(191,191,191,1);
+    padding-bottom: 1em;
+    box-sizing: border-box;
+    }
+.weekend__img{
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+.rating_star{
+    max-width: 1.5em;
+}
+
+/*----------------------------------------------*/
+/* adventure */
+/*----------------------------------------------*/
+.adventure{ margin: var(--margin-top) ;}
+.adventure__video{
+ max-width: 100%;
+ clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
+}
