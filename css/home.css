@@ -2,7 +2,22 @@
     max-width: 75em;
     margin: 0 auto;
 }
+/*----------------------------------------------*/
+/* FORM*/
+/*----------------------------------------------*/
+.main{ 
+    position: relative;
+    margin-top: -2em;
+    padding:1.5em;
+    background-color: var(--col-white); 
+    box-shadow: 7px 7px 35px 4px rgba(132, 131, 131, 0.45);
+    -moz-box-shadow: 7px 7px 35px 4px rgba(132, 131, 131, 0.45);
+    -webkit-box-shadow: 7px 7px 35px 4px rgba(132, 131, 131, 0.45);
+  }
 
+  .form{ text-align: center; }
+  .form-control input{ padding: 1em 2em 1em 2em; border:.1em solid #354e6cc0;}
+  .form__search-btn{padding:1em 3em 1em 3em !important ;}
 /*----------------------------------------------*/
 /* PLACES */
 /*----------------------------------------------*/
