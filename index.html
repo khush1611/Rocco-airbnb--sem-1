@@ -9,7 +9,6 @@
 		<link rel="icon" href="images/favicon/favicon.ico" type="image/x-icon">
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/default.css">
-		<!--link rel="stylesheet" href="css/grid.css"-->
 
 		<link rel="stylesheet" href="css/home.css">
 	</head>
@@ -37,7 +36,7 @@
 								<li><a href="https://www.facebook.com/airbnb" target="_blank"><img src="images/svg/facebook.svg" alt="facebook icon" class="head__social-icon"></a></li>
 								<li><a href="https://twitter.com/airbnb" target="_blank"><img src="images/svg/twitter.svg" alt="twitter icon" class="head__social-icon"></a></li>
 								<li><a href="https://www.instagram.com/airbnb/" target="_blank"><img src="images/svg/instagram.svg" alt="instagram icon" class="head__social-icon"></a></li>
-							</u>
+							</ul>
 					</div> <!--col-->
 				</section> <!-- section left-->
 
@@ -53,7 +52,7 @@
 			</div>
 		</header> <!-- header-->
 
-		<div class="page-wrapper">
+		<div class="page-wrapper-75em">
 			<main class="main">
 				<h1 class="hidden">Air bed and breakfast</h1>
 				<div class="booking__form">
@@ -68,12 +67,12 @@
 	
 								<div class="col-5 form-control">
 									<label class="text-transform hidden" for="check-in">check-in</label>
-									<input type="date" id="check-in" placeholder="dd-mm-yyyy" class="">
+									<input type="datetime" id="check-in"  class="">
 								</div>
 								
 								<div class="col-5 form-control">
 									<label class="text-transform hidden" for="check-out">checkout</label>
-									<input type="date" id="check-out" placeholder="dd-mm-yyyy" class="">
+									<input type="datetime" id="check-out" class="">
 								</div>
 								
 								<div class="col-5 form-control">
@@ -88,6 +87,7 @@
 						</form> <!--form-->
 					</div> <!-- booking__form-->
 			</main> <!--main-->
+
 			<section class="places">
 				<h2 class="text-center"><a href="#" target="_blank" class="color-bay-of-many">Airbnb plus places to stay</a></h2>
 				
@@ -118,7 +118,7 @@
 			</section> <!--places-->
 
 			<section class="weekend">
-				<h2 class="text-center"><a href="#" tagret="_blank" class="color-bay-of-many">This weekend</a></h2>
+				<h2 class="text-center"><a href="#" target="_blank" class="color-bay-of-many">This weekend</a></h2>
 				<div class="row">
 					
 					<div class="col-4 weekend__box">
@@ -159,7 +159,7 @@
 
 				</div><!-- rows-->
 				
-				<p class="text-center"><span class="border-bottom"><a href="#" target="_blank" class="color-bay-of-many">View All</a></span></p>
+				<p class="text-center"><span class="border-bottom"><a href="weekend.html" target="_blank" class="color-bay-of-many">View All</a></span></p>
 
 			</section><!--weekend-->
 
@@ -172,89 +172,87 @@
 
 				<div class="col-2">
 					<video autoplay muted loop class="adventure__video">
-						<source src="video/superhost.mp4" type="video/mp4">
+						<source src="video/Hanging_There.mp4" type="video/mp4">
 						Your browser does not support HTML5 video.
 					  </video>
 				</div>
 			</div> <!-- adventure-->
-			</section><!--weekend-->
-			
-			<footer class="footer">
-				<div class="row footer__nav">
-					<section class="col-4">
-						<h3 class="text-uppercase color-bay-of-many">about</h3>
-						<nav>
-							<ul>
-								<li><a href="#" target="_blank">Careers</a></li>
-								<li><a href="#" target="_blank">News</a></li>
-								<li><a href="#" target="_blank">Policies</a></li>
-								<li><a href="#" target="_blank">Diversity & Belonging</a></li>
-								<li><a href="#" target="_blank">Accessibility</a></li>
-							</ul>
-						</nav>
-					</section>
-					
-					<section class="col-4">
-						<h3 class="text-uppercase color-bay-of-many">discover</h3>
-						<nav>
-							<ul>
-								<li><a href="#" target="_blank">Trust & Safety</a></li>
-								<li><a href="#" target="_blank">Travel Credit</a></li>
-								<li><a href="#" target="_blank">Airbnb Citizen</a></li>
-								<li><a href="#" target="_blank">Business Travel</a></li>
-								<li><a href="#" target="_blank">Things To Do</a></li>
-								<li><a href="#" target="_blank">Airbnbmag</a></li>
-							</ul>
-						</nav>
-					</section>
-
-					<section class="col-4">
-						<h3 class="text-uppercase color-bay-of-many">hosting</h3>
-						<nav>
-							<ul>
-								<li><a href="#" target="_blank">Why Host</a></li>
-								<li><a href="#" target="_blank">Hospitality</a></li>
-								<li><a href="#" target="_blank">Responsible</a></li>
-								<li><a href="#" target="_blank">Hosting</a></li>
-								<li><a href="#" target="_blank">Community Center</a></li>
-								<li><a href="#" target="_blank">Host an Experience</a></li>
-							</ul>
-						</nav>
-					</section>
-
-					<section class="col-4">
-						<h3 class="text-uppercase color-bay-of-many">support</h3>
-						<nav>
-							<ul>
-								<li><a href="#" target="_blank">Help Centre</a></li>
-								<li><a href="#" target="_blank">Neighbourhood Support</a></li>
-							</ul>
-						</nav>
-					</section>
-				</div> <!-- row-->
-
-			<section class="row copyright_social-media">
-					<div class="col-2-large">
-						<a href="index.html" target="_blank"><img src="images/website_logo_airbnb_footer.png" alt="airbnb logo in footer and stands for air bed and breakfast" class="footer__website-logo"></a>
-						<span>&copy; 2020 Airbnb, Inc. All right reserved.</span>
-						<span class="margin-0">
-							<a href="#" target="_blank">Privacy.</a> 
-							<a href="#" target="_blank">Terms.</a> 
-							<a href="#" target="_blank">Sitemap</a>
-						</span>
-				
-					</div>
-
-					<div class="col-2-x-small">
-						<ul class="footer__social_media row">
-							<li class="col-3"><a href="https://www.facebook.com/airbnb" target="_blank"><img src="images/svg/facebook_footer.svg" alt="facebook icon" class="footer__social-icon"></a></li>
-							<li class="col-3"><a href="https://twitter.com/airbnb" target="_blank"><img src="images/svg/twitter_footer.svg" alt="twitter icon" class="footer__social-icon"></a></li>
-							<li class="col-3"><a href="https://www.instagram.com/airbnb/" target="_blank"><img src="images/svg/instagram_footer.svg" alt="instagram icon" class="footer__social-icon"></a></li>
-						</u>
-					</div>
-					
-					
-			</footer> <!--footer-->
+		
+            <footer class="footer">
+                <div class="row footer__nav">
+                    <section class="col-4">
+                        <h3 class="text-uppercase color-bay-of-many">about</h3>
+                        <nav>
+                            <ul>
+                                <li><a href="#" target="_blank">Careers</a></li>
+                                <li><a href="#" target="_blank">News</a></li>
+                                <li><a href="#" target="_blank">Policies</a></li>
+                                <li><a href="#" target="_blank">Diversity & Belonging</a></li>
+                                <li><a href="#" target="_blank">Accessibility</a></li>
+                            </ul>
+                        </nav>
+                    </section>
+                    
+                    <section class="col-4">
+                        <h3 class="text-uppercase color-bay-of-many">discover</h3>
+                        <nav>
+                            <ul>
+                                <li><a href="#" target="_blank">Trust & Safety</a></li>
+                                <li><a href="#" target="_blank">Travel Credit</a></li>
+                                <li><a href="#" target="_blank">Airbnb Citizen</a></li>
+                                <li><a href="#" target="_blank">Business Travel</a></li>
+                                <li><a href="#" target="_blank">Things To Do</a></li>
+                                <li><a href="#" target="_blank">Airbnbmag</a></li>
+                            </ul>
+                        </nav>
+                    </section>
+    
+                    <section class="col-4">
+                        <h3 class="text-uppercase color-bay-of-many">hosting</h3>
+                        <nav>
+                            <ul>
+                                <li><a href="#" target="_blank">Why Host</a></li>
+                                <li><a href="#" target="_blank">Hospitality</a></li>
+                                <li><a href="#" target="_blank">Responsible</a></li>
+                                <li><a href="#" target="_blank">Hosting</a></li>
+                                <li><a href="#" target="_blank">Community Center</a></li>
+                                <li><a href="#" target="_blank">Host an Experience</a></li>
+                            </ul>
+                        </nav>
+                    </section>
+    
+                    <section class="col-4">
+                        <h3 class="text-uppercase color-bay-of-many">support</h3>
+                        <nav>
+                            <ul>
+                                <li><a href="#" target="_blank">Help Centre</a></li>
+                                <li><a href="#" target="_blank">Neighbourhood Support</a></li>
+                            </ul>
+                        </nav>
+                    </section>
+                </div> <!-- row-->
+    
+            <section class="row copyright_social-media">
+                    <div class="col-2-large">
+                        <a href="index.html" target="_blank"><img src="images/website_logo_airbnb_footer.png" alt="airbnb logo in footer and stands for air bed and breakfast" class="footer__website-logo"></a>
+                        <span>&copy; 2020 Airbnb, Inc. All right reserved.</span>
+                        <span class="margin-0">
+                            <a href="#" target="_blank">Privacy.</a> 
+                            <a href="#" target="_blank">Terms.</a> 
+                            <a href="#" target="_blank">Sitemap</a>
+                        </span>
+                
+                    </div>
+    
+                    <div class="col-2-x-small">
+                        <ul class="footer__social_media row">
+                            <li class="col-3"><a href="https://www.facebook.com/airbnb" target="_blank"><img src="images/svg/facebook_footer.svg" alt="facebook icon" class="footer__social-icon"></a></li>
+                            <li class="col-3"><a href="https://twitter.com/airbnb" target="_blank"><img src="images/svg/twitter_footer.svg" alt="twitter icon" class="footer__social-icon"></a></li>
+                            <li class="col-3"><a href="https://www.instagram.com/airbnb/" target="_blank"><img src="images/svg/instagram_footer.svg" alt="instagram icon" class="footer__social-icon"></a></li>
+                        </ul>
+                    </div>
+            </section> <!-- row copyright_social-media-->
+            </footer> <!--footer-->
 
 		</div><!-- page-wrapper-->
 	</body>

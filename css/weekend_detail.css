@@ -1,0 +1,58 @@
+.weekend_main{
+    margin: .6em;
+}
+/*-----------------------------------------------*/
+/* PARALLAX*/
+/*----------------------------------------------*/
+
+.parallax-one{
+    margin: 5em 0 0 0;
+    padding: 10%;
+   
+    width: 100%;
+    background-image: url(../images/group_people.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+}
+
+.parallax-two{
+    margin: 0 0 5em 0;
+    padding: 10%;
+   
+    width: 100%;
+    background-image: url(../images/girl_siting_rock_river.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+}
+/*-----------------------------------------------*/
+/* HOST*/
+/*----------------------------------------------*/
+.host{
+    align-items: center !important;
+}
+.host__name{
+      text-align: center;
+}
+.host__intro{
+    color:var(--col-dim-gray);
+}
+.host__social-media{
+    max-width: 1.5em;
+}
+.host__img{
+    flex-basis: 20% !important;
+}
+/*-----------------------------------------------*/
+/* GUEST IMAGE*/
+/*----------------------------------------------*/
+.guest_photos{
+    background-color: var(--col-white);
+}
+.guest_photos .col-3{
+ margin: .1em !important;
+ flex-basis: calc(100%/3);
+}

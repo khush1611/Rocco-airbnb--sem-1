@@ -1,0 +1,15 @@
+.weekend__container{
+    align-items: center !important;
+    margin-bottom: 2em;
+}
+.section-img{
+    padding: 1em;
+    margin: 0 !important;
+}
+.section-img__container{
+    align-items: center;
+    padding: 1em;
+}
+.section-content{
+margin: 0 !important;
+}
