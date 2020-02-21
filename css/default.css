@@ -55,7 +55,7 @@ body{
 /*----------------------------------------------*/
 /* RESET OVERWRITTING */
 /*----------------------------------------------*/
-h1,h2,h3,h4,h5,h6{font-weight: normal; margin: 0; }
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
 
 a{text-decoration: none;}
 
@@ -74,6 +74,28 @@ a{text-decoration: none;}
 
   width: 30em;
   height: 28em;
+}
+.book_now-btn-mb { 
+  display: none;
+  position: absolute; 
+  content: ""; top:50%; 
+  margin: 1em;
+}
+
+.book_now-btn-mb:hover {  
+  border: .1em solid var(--col-white) !important;
+  background-color: transparent !important;
+  color: var(--col-white) !important;
+}
+
+.website_fullform{ 
+  display: none; margin: 0;
+  position: absolute; 
+  content: ""; 
+  top:65%; 
+  font-size: 4em; 
+  color: var(--col-white); 
+  padding: .2em !important;
 }
 
 .section-left

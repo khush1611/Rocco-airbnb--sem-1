@@ -29,3 +29,49 @@
 								
 						</form--> <!--form-->
 					<!--/div--> <!-- booking__form-->
+
+
+
+
+
+					<header class="header">
+			<img src="images/bluebed_sidetable_lamp.jpg" alt="blue bed, sidetable and lamp" class="header__banner-img">
+					
+				<div class="row">
+				<section class="section-left">
+					<a href="index.html" target="_blank"><img src="images/website_logo.png" alt="airbnb logo in footer and stands for air bed and breakfast" class="section-left__website-logo"></a>
+
+						<div class="col">
+							<nav class="row-2 navigation">
+								<ul class="nav-menu">
+									<li class="text-uppercase"><a href="#" target="_blank">stays</a></li>
+									<li class="text-uppercase"><a href="#" target="_blank">experience</a></li>
+									<li class="text-uppercase"><a href="#" target="_blank">adventure</a></li>
+									<li class="text-uppercase"><a href="#" target="_blank">host a house</a></li>
+									<li class="text-uppercase"><a href="#" target="_blank">host an experience</a></li>
+								</ul>
+							</nav>
+
+							<ul class="row-2 section-left__social-media">
+								<li><a href="https://www.facebook.com/airbnb" target="_blank"><img src="images/svg/facebook.svg" alt="facebook icon" class="head__social-icon"></a></li>
+								<li><a href="https://twitter.com/airbnb" target="_blank"><img src="images/svg/twitter.svg" alt="twitter icon" class="head__social-icon"></a></li>
+								<li><a href="https://www.instagram.com/airbnb/" target="_blank"><img src="images/svg/instagram.svg" alt="instagram icon" class="head__social-icon"></a></li>
+							</ul>
+					</div> <!--col-->
+				</section> <!-- section left-->
+
+				<section class="section-right">
+					<nav>
+						<ul class="row login_signup">
+							<li class="col-2 text-uppercase"><a href="#">Login</a></li>
+							<li class="col-2"><button class="btn-border login_signup-btn">Sign up</button></li>
+						</ul>
+					</nav>
+					<p class="belong">Belong</p>
+					<p class="anywhere">Anywhere</p>
+					
+					<button class="btn-color book_now-btn">Book now</button>
+				
+				</section> <!-- section right-->
+			</div>
+		</header> header

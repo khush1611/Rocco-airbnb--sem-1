@@ -1,6 +1,6 @@
 /* all the  resuable classes for the entire website*/
 
-
+.none { display: none;}
 .hidden{ display: none; margin: -10000px; }
 
 .page-wrapper-75em{ max-width: 75em; margin: 0 auto; }
@@ -68,7 +68,7 @@ a:hover{font-weight: bolder;}
 .border-top{ border-top: .1em solid rgb(238, 235, 235); }
 
 /***** buttons *****/
-
+.btn-border:focus, .btn-color:focus{ outline: none;}
 .btn-border{
   border: .1em solid var(--col-bay-of-many);
   background-color: transparent;
