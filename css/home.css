@@ -1,24 +1,26 @@
+/* A stylig for index page*/
+
+
 /*-----------------------------------------------*/
 /* FORM*/
 /*----------------------------------------------*/
 
   .booking_form{ text-align: center; }
+
   .booking_form .form-control input{ padding: 1em 2em 1em 2em; border:.1em solid #354e6cc0;}
+
   .booking_form .form__search-btn{padding:1em 3em 1em 3em !important ;}
+
 /*----------------------------------------------*/
 /* PLACES */
 /*----------------------------------------------*/
-.places{ margin: var(--margin-top) ;}
-.places__video {
-    max-width: 100%;
-    clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
-}
-.explore{
-    text-align: center;
-}
-.explore-button{
-    padding: 1em 2em 1em 2em !important;
-}
+.places{ margin: var(--margin-top); }
+
+.places__video { max-width: 100%; clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%); }
+
+.explore{ text-align: center; }
+
+.explore-button{ padding: 1em 2em 1em 2em !important; }
 
 /*----------------------------------------------*/
 /* Weekend */
@@ -32,20 +34,13 @@
     padding-bottom: 1em;
     box-sizing: border-box;
     }
-.weekend__img{
-    display: block;
-    max-width: 100%;
-    max-height: 100%;
-}
-.rating_star{
-    max-width: 1.5em;
-}
+.weekend__img{ display: block; max-width: 100%;  max-height: 100%; }
+
+.rating_star{ max-width: 1.5em; }
 
 /*----------------------------------------------*/
 /* adventure */
 /*----------------------------------------------*/
 .adventure{ margin: var(--margin-top) ; align-items: center;}
-.adventure__video{
- max-width: 100%;
- clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
-}
+
+.adventure__video{ max-width: 100%; clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%); }

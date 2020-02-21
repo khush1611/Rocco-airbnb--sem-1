@@ -1,8 +1,5 @@
-/*----------------------------------------------*/
-/* COMMON CLASSES 
-This file contains all the resuable classes for all over the website.
-*/
-/*----------------------------------------------*/
+/* all the  resuable classes for the entire website*/
+
 
 .hidden{ display: none; margin: -10000px; }
 
@@ -17,9 +14,11 @@ This file contains all the resuable classes for all over the website.
 /***** flex coloumns *****/
 /*column self-note -> change  class name row to col and visa versa for col class*/
 .row{ display: flex; justify-content: space-between;}
-
+ 
 .col-2{ flex-basis: calc(96% / 2);  margin: 2em 0 2em 0; }
+
 .col-2-x-small{ flex-basis: 10%;  margin: 2em 0 2em 0; }
+
 .col-2-large { flex-basis: 90%;  margin: 2em 0 2em 0;}
 
 .col-3{ flex-basis: calc(95% / 3); margin: 2em 0 2em 0; }
@@ -113,4 +112,5 @@ a:hover{font-weight: bolder;}
 }
 /***** margin *****/
 .margin-0{ margin:0 }
+
 .margin-top-small{ margin:2em 0 .6em 0;}

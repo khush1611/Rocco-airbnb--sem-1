@@ -1,6 +1,6 @@
-.weekend_main{
-    margin: .6em;
-}
+/* styling for weekend.html file */
+.weekend_main{ margin: .6em; }
+
 /*-----------------------------------------------*/
 /* PARALLAX*/
 /*----------------------------------------------*/
@@ -31,28 +31,20 @@
 /*-----------------------------------------------*/
 /* HOST*/
 /*----------------------------------------------*/
-.host{
-    align-items: center !important;
-}
-.host__name{
-      text-align: center;
-}
-.host__intro{
-    color:var(--col-dim-gray);
-}
-.host__social-media{
-    max-width: 1.5em;
-}
-.host__img{
-    flex-basis: 20% !important;
-}
+.host{ align-items: center !important; }
+
+.host__name{ text-align: center; }
+
+.host__intro{ color:var(--col-dim-gray); }
+
+.host__social-media{ max-width: 1.5em; }
+
+.host__img{ flex-basis: 20% !important; }
+
+
 /*-----------------------------------------------*/
 /* GUEST IMAGE*/
 /*----------------------------------------------*/
-.guest_photos{
-    background-color: var(--col-white);
-}
-.guest_photos .col-3{
- margin: .1em !important;
- flex-basis: calc(100%/3);
-}
+.guest_photos{ background-color: var(--col-white); }
+
+.guest_photos .col-3{ margin: .1em !important; flex-basis: calc(100%/3); }
