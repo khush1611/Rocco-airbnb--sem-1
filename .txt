@@ -1,0 +1,31 @@
+<!--div class="booking">
+	
+						<form action="post" class="row booking__form">
+							<h2 class="hidden">Book unique places to stay and things to do.</h2>
+						
+								<div class="col-5 form-control">
+									<label class="text-transform hidden" for="anywhere">where</label>
+									<input type="text" id="anywhere" placeholder="Anywhere" class="">
+								</div>
+	
+								<div class="col-5 form-control">
+									<label class="text-transform hidden" for="check-in">check-in</label>
+									<input type="datetime" id="check-in"  class="">
+								</div>
+								
+								<div class="col-5 form-control">
+									<label class="text-transform hidden" for="check-out">checkout</label>
+									<input type="datetime" id="check-out" class="">
+								</div>
+								
+								<div class="col-5 form-control">
+									<label class="text-transform hidden" for="guest">guest</label>
+									<input type="text" id="guest" placeholder="Guest" class="">
+								</div>
+								
+								<div class="col-5 form-control">
+									<button class="btn-color form__search-btn">Search</button>
+								</div>
+								
+						</form--> <!--form-->
+					<!--/div--> <!-- booking__form-->

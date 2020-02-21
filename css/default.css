@@ -67,95 +67,9 @@ body{
 /*----------------------------------------------*/
 /* RESET */
 /*----------------------------------------------*/
-h1,h2,h3,h4,h5,h6{font-weight: normal; /*margin: 0;*/}
+h1,h2,h3,h4,h5,h6{font-weight: normal; margin: 0;}
+
 a{text-decoration: none;}
-
-
-/*----------------------------------------------*/
-/* COMMON CLASSES */
-/*----------------------------------------------*/
-.hidden{ display: none; margin: -10000px; }
-
-.page-wrapper-75em{ max-width: 75em; margin: 0 auto; }
-
-.page-wrapper-60em{ max-width: 60em; margin: 0 auto;}
-
-.page-wrapper-40em{ max-width: 40em; margin: 0 auto;}
-
-
-
-/***** flex coloumns *****/
-/*column self-note -> change  class name row to col and visa versa for col class*/
-.row{ display: flex; justify-content: space-between;}
-
-.col-2{ flex-basis: calc(96% / 2);  margin: 2em 0 2em 0; }
-.col-2-x-small{ flex-basis: 10%;  margin: 2em 0 2em 0; }
-.col-2-large { flex-basis: 90%;  margin: 2em 0 2em 0;}
-
-.col-3{ flex-basis: calc(95% / 3); margin: 2em 0 2em 0; }
-
-.col-3-large{ flex-basis: 30%;  margin: 2em 0 2em 0; }
-
-.col-4{ flex-basis: calc(94% / 4);  margin: 2em 0 2em 0; }
-
-.col-5{ flex-basis: calc(99% / 5);  margin: 2em 0 2em 0; }
-
-/*rows*/
-.col{ display: flex; flex-direction: column; justify-content:space-between; height:65%;}
-
-
-/***** typography *****/
-.text-center{text-align: center; }
-
-.text-uppercase{ text-transform: uppercase; }
-
-.font-size-small{ font-size: .7em; }
-
-.font-size-mid{ font-size: 1em; }
-
-.font-size-lg{ font-size: 2em;}
-
-.font-size-xlg{ font-size: 4em;}
-
-.font-weight-bold{ font-weight: bold;}
-
-.letter-spacing{ letter-spacing: 1em; } 
-
-.word_spacing { word-spacing: 2em;}
-
-/***** color *****/
-.color-white{ color:var(--col-white); }
-
-.color-bay-of-many{ color:#354e6c; }
-
-.color-dim-gray{ color:#606060; }
-
-
-/***** border *****/
-.border-bottom{ border-bottom: .1em solid var(--col-dim-gray); margin: .2em 0 .2em 0; }
-
-.border-top{ border-top: .1em solid rgb(238, 235, 235); }
-
-/***** form element *****/
-
-.btn-border{
-  border: .1em solid var(--col-bay-of-many);
-  background-color: transparent;
-  color: var(--col-bay-of-many);
-  
-  padding: .5em 2em .5em 2em;
-}
-.btn-color{
-  border: none;
-  background-color:var(--col-bay-of-many);
-  color:var(--col-white);
-  
-  padding: 1em 2em 1em 2em;
-}
-/***** margin *****/
-.margin-0{ margin:0 }
-.margin-top-small{ margin:2em 0 .6em 0;}
-
 /*----------------------------------------------*/
 /* HEADER*/
 /*----------------------------------------------*/
@@ -170,30 +84,6 @@ a{text-decoration: none;}
 
   width: 30em;
   height: 28em;
-}
-.belong{
-    position: absolute;
-    content: "";
-    top: 49%;
-    left: 65%;
-    transform: translate(-50%, -50%);
-
-    color:var(--col-iron);
-    text-shadow: 6px 6px 6px rgba(0,0,0,0.75);
-    font-size: 5em;
-    
-}
-.anywhere
-{
-  position: absolute;
-  content: "";
-  top: 63%;
-  left: 73%;
-  transform: translate(-50%, -50%);
-  
-  color:var(--col-iron);
-  text-shadow: 6px 6px 6px rgba(0,0,0,0.75);
-  font-size: 5em;
 }
 
 .section-left
@@ -213,8 +103,11 @@ a{text-decoration: none;}
 
 .nav-menu a{ color: var(--col-bay-of-many); }
 
-.head__social-icon{ width: 2em; margin: .5em auto; }
+.head__social-icon{ width: 2em; margin: .5em auto; transition: all 1s; -webkit-transition: all 1s; -moz-transition: all 1s; -ms-transition: all 1s; -o-transition: all 1s; }
 
+.head__social-icon:hover{
+  width: 2.5em;
+}
 .section-right{
   background-color: var(--col-iron);
   margin: 0 !important;
@@ -225,11 +118,79 @@ a{text-decoration: none;}
   }
 .login_signup{ justify-content:flex-end !important; align-items: center;  margin: 0;}
 
-.login_signup li{flex-basis: calc(30% / 2) !important;}
+.login_signup li{flex-basis: calc(30% / 2) !important; margin: 0;}
 
 .login_signup a{ color: var(--col-bay-of-many); }
 
-.login_signup-btn{  text-transform: uppercase; padding: .6em 1.2em .6em 1.2em;}
+.login_signup-btn{  text-transform: uppercase; padding: .6em 1.2em .6em 1.2em !important; }
+
+.belong{
+  position: absolute;
+  content: "";
+  top: 40%;
+  left: 64%;
+  transform: translate(-50%, -50%);
+
+  color:var(--col-iron);
+  text-shadow: 1px -2px 6px rgba(49, 58, 102, 0.75); /*6px 6px 6px rgba(0,0,0,0.75);*/
+  font-size: 5em;
+  
+}
+.anywhere
+{
+position: absolute;
+content: "";
+top: 53%;
+left: 70%;
+transform: translate(-50%, -50%);
+
+color:var(--col-iron);
+text-shadow: 1px -2px 6px rgba(49, 58, 102, 0.75); /*6px 6px 6px rgba(0,0,0,0.75);*/
+font-size: 5em;
+}
+.book_now-btn{
+  position: absolute;
+  content: "";
+  left: 68%;
+  top:72%;
+}
+
+/*----------------------------------------------*/
+/* FOOTER*/
+/*----------------------------------------------*/
+.main{ 
+  padding:1.5em;
+  background-color: var(--col-white); 
+  /*box-shadow: 7px 7px 35px 4px rgba(132, 131, 131, 0.45);
+  -moz-box-shadow: 7px 7px 35px 4px rgba(132, 131, 131, 0.45);
+  -webkit-box-shadow: 7px 7px 35px 4px rgba(132, 131, 131, 0.45);*/
+}
+.search__form{
+  justify-content: end !important;
+  margin: 0 !important;
+}
+.search__input{
+  flex-basis: 94%;
+}
+.location__button{
+ flex-basis: 3%;
+}
+.search__button{
+  flex-basis: 3%;
+}
+.search__form input[type=text] {
+  border: .1em solid var(--col-bay-of-many);
+  padding: 1em;
+  float: left;
+  width: 100%;
+}
+
+.search__form button {
+  padding: 1em;
+  border: .1em solid var(--col-bay-of-many);
+  border-left: none;
+}
+
 
 /*----------------------------------------------*/
 /* FOOTER*/
@@ -242,9 +203,15 @@ a{text-decoration: none;}
 }
 .footer a{ color:var(--col-dim-gray); }
 .footer a:hover{ font-weight: bolder; color:var(--col-bay-of-many); }
-.footer__nav{ padding: 2em; }
+.footer__nav{ padding: 1em; }
 
-.copyright_social-media{ padding: 1em;  border-top: 1px solid rgb(189, 189, 189); align-items: center; }
+.copyright_social-media{ padding: 1em;  border-top: 1px solid rgb(189, 189, 189); align-items: center;}
+
+.copyright_social-media .col-2-large{margin: 0 !important;}
+
+.copyright_social-media .col-2-x-small{margin: 0 !important;}
+
+.copyright_social-media .col-3{margin: 0 !important;}
 
 .footer__website-logo{ max-width: 2em; }
 
