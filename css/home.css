@@ -5,11 +5,11 @@
 /* FORM*/
 /*----------------------------------------------*/
 
-  .booking_form{ text-align: center; }
+  .booking_-form{ text-align: center; }
 
-  .booking_form .form-control input{ padding: 1em 2em 1em 2em; border:.1em solid #354e6cc0;}
+  .booking__form .form-control input{ padding: 1em 2em 1em 2em; border:.1em solid #354e6cc0;}
 
-  .booking_form .form__search-btn{padding:1em 3em 1em 3em !important ;}
+  .booking__form .form__search-btn{padding:1em 3em 1em 3em !important ;}
 
 /*----------------------------------------------*/
 /* PLACES */

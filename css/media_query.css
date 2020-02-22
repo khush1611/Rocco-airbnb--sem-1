@@ -1,12 +1,32 @@
 /* media queries to make the website responsive*/
+@media only screen and (max-width: 900px){
+    .page-wrapper-75em{ max-width: 45em !important; margin: 0 auto; }
 
+    .login_signup li {flex-basis: calc(100% / 2); }
+    
+    .header__banner-img{ max-width: 20em;  height: 20em !important; }
+    
+    .belong{ display: none; }
 
+    .anywhere{ display: none; }
+}
+
+@media only screen and (max-width: 696px){
+    .page-wrapper-75em{ max-width: 40em !important; margin: 0 auto; }
+
+    .login_signup li {flex-basis: calc(100% / 2); }
+    
+    .header__banner-img{ max-width: 10em;  height: 10em !important; }
+    
+    .belong{ display: none; }
+
+    .anywhere{ display: none; }
+}
 /*iphone 6/7/8 plus */
-@media only screen and (max-width:  500px){
+@media only screen and (max-width: 500px){
 
     .header{
         position: relative;
-        height: 100vh !important; 
         background-image: linear-gradient(90deg, rgba(191,191,191,0.5357493339132529) 0%, rgba(53,78,108,0.5329482134650736) 0%),url(../images/living_room.jpg); 
         background-repeat: no-repeat;
         background-size: cover;
@@ -30,6 +50,13 @@
     .col-2-large span{ display: block;}
     
     .col-2-x-small .row{ display: flex !important;}
+
+
+}
+@media only screen and (max-width: 300px){
+    .website_fullform{ 
+        font-size: 2em !important; 
+      }
 
 
 }

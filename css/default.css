@@ -63,7 +63,7 @@ a{text-decoration: none;}
 /*----------------------------------------------*/
 /* HEADER*/
 /*----------------------------------------------*/
-.header{height: 100vh; position: relative;}
+.header{/*height: 100vh;*/ position: relative;}
 
 .header__banner-img{
   position: absolute;
@@ -72,8 +72,8 @@ a{text-decoration: none;}
   left: 50%;
   transform: translate(-50%, -50%);
 
-  width: 30em;
-  height: 28em;
+  width: 28em;
+  height: 25em;
 }
 .book_now-btn-mb { 
   display: none;
@@ -90,9 +90,6 @@ a{text-decoration: none;}
 
 .website_fullform{ 
   display: none; margin: 0;
-  position: absolute; 
-  content: ""; 
-  top:65%; 
   font-size: 4em; 
   color: var(--col-white); 
   padding: .2em !important;
@@ -104,10 +101,11 @@ a{text-decoration: none;}
   margin: 0 !important;
   padding: 3em 3em 1em 3em;
   width: 100%;
-  height: 100vh;
+  height: 40em;
+ /* height: 100vh;*/
   }
 
-.section-left__website-logo{ max-width: 3em;  margin: auto 2em 8em 2em; }
+.section-left__website-logo{ max-width: 3em;  margin: auto 2em 3em 2em; }
 
 .navigation{  border-left: .4em solid var(--col-bay-of-many); }
 
@@ -115,17 +113,13 @@ a{text-decoration: none;}
 
 .nav-menu a{ color: var(--col-bay-of-many); }
 
-.head__social-icon{ width: 2em; margin: .5em auto; transition: all 1s; -webkit-transition: all 1s; -moz-transition: all 1s; -ms-transition: all 1s; -o-transition: all 1s; }
+.head__social-icon{ width: 1.5em; margin: .5em auto; transition: all 1s; -webkit-transition: all 1s; -moz-transition: all 1s; -ms-transition: all 1s; -o-transition: all 1s; }
 
-.head__social-icon:hover{ width: 2.5em; }
-.section-right{
-  background-color: var(--col-iron);
-  margin: 0 !important;
-  padding: 3em 3em 2em 3em;
+.head__social-icon:hover{ width: 3em; }
 
-  width: 100%;
-  height: 100vh;
-  }
+.section-right{ background-color: var(--col-iron);  margin: 0 !important; padding: 3em 3em 2em 3em; width: 100%;  height: 40em;
+ /* height: 100vh;*/ }
+ 
 .login_signup{ justify-content:flex-end !important; align-items: center;  margin: 0;}
 
 .login_signup li{flex-basis: calc(35% / 2) !important; margin: 0;}

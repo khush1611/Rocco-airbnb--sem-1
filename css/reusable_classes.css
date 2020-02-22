@@ -1,6 +1,7 @@
 /* all the  resuable classes for the entire website*/
 
 .none { display: none;}
+
 .hidden{ display: none; margin: -10000px; }
 
 .page-wrapper-75em{ max-width: 75em; margin: 0 auto; }
